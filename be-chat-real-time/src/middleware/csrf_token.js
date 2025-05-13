@@ -2,7 +2,6 @@ import crypto from "crypto";
 require("dotenv").config();
 export const csrfMiddleware = (req, res, next) => {
   // Xác thực yêu cầu POST, PUT, DELETE
-  console.log(!req.path.includes("/api/v1/login"))
   if (["POST", "PUT", "DELETE"].includes(req.method) ) {
     const tokenFromClient =
       req.headers["x-csrf-token"] || req.body._csrf || req.FormData;
