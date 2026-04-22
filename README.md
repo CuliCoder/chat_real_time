@@ -109,6 +109,13 @@ npm start
 
 Frontend sẽ chạy tại: `http://localhost:3000`
 
+## 🔐 Tài khoản test
+
+- Email: `test@gmail.com`
+    Mật khẩu: `A12345678`
+- Email: `test1@gmail.com`
+    Mật khẩu: `A12345678`
+
 ---
 
 ## 🔌 Socket Events
